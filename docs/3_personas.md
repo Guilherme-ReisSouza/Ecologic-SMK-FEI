@@ -57,7 +57,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
  	Localização: São Paulo - SP
  	Renda: Média (R$ 3.000 – R$ 5.000/mês)
 
- 	Contexto Social, Econômico e Cultural: Lucas está imerso na cultura urbana, frequentando eventos independentes, feiras e exposições alternativas. Ele utiliza 	as redes sociais para expressar seu estilo pessoal e apoiar marcas que demonstram ter um propósito claro. A sustentabilidade e a exclusividade são valores 	importantes para ele. Seus principais objetivos são encontrar produtos que reflitam sua autenticidade e propósito, além de participar de uma comunidade que 	compartilhe de seus valores e ser recompensado por seu engajamento e compras.
+ 	Contexto Social, Econômico e Cultural: Lucas está imerso na cultura urbana, frequentando eventos independentes, feiras e exposições alternativas. Ele utiliza as redes sociais para expressar seu estilo pessoal e apoiar marcas que demonstram ter um propósito claro. A sustentabilidade e a exclusividade são valores importantes para ele. Seus principais objetivos são encontrar produtos que reflitam sua autenticidade e propósito, além de participar de uma comunidade que compartilhe de seus valores e ser recompensado por seu engajamento e compras.
 
 2. Marina Lopes – A Criadora Consciente
 
@@ -66,7 +66,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
  	Localização: Belo Horizonte – MG
  	Renda: Média-alta (R$ 6.000 – R$ 8.000/mês)
   
- 	Contexto Social, Econômico e Cultural: Marina é uma empreendedora criativa, engajada em coletivos artísticos e ambientais. Ela valoriza produtos sustentáveis e 	gosta de participar de experiências colaborativas. Seus objetivos incluem adquirir produtos exclusivos e de alta qualidade, criar conexões com a comunidade e 	gerenciar a compra de kits consignados através de um painel de parceiros.
+ 	Contexto Social, Econômico e Cultural: Marina é uma empreendedora criativa, engajada em coletivos artísticos e ambientais. Ela valoriza produtos sustentáveis e gosta de participar de experiências colaborativas. Seus objetivos incluem adquirir produtos exclusivos e de alta qualidade, criar conexões com a comunidade e gerenciar a compra de kits consignados através de um painel de parceiros.
 
 3. Ana Ferreira - Curiosa Iniciante
 
@@ -75,7 +75,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
  	Localização: Porto Alegre – RS
  	Renda: Baixa (R$ 1.500 – R$ 2.200/mês)
  	
- 	Contexto social, econômico e cultural: recém introduzida à cultura headshop. Observa amigos e influenciadores e sente curiosidade em aprender mais. Busca 	segurança e clareza antes de comprar.
+ 	Contexto social, econômico e cultural: recém introduzida à cultura headshop. Observa amigos e influenciadores e sente curiosidade em aprender mais. Busca segurança e clareza antes de comprar.
 
 Informações que o Sistema Deve Guardar Para personalizar a experiência do usuário, o sistema deve armazenar as seguintes informações:
 
@@ -94,14 +94,14 @@ Mapa de Empatia
  	Recomendações de amigos e influenciadores digitais, as músicas e os sons de eventos que frequenta e anúncios de novos produtos.
 
  	O que ele FALA e FAZ?
- 	Posta stories em suas redes sociais, participa ativamente de fóruns, monta "boxes" personalizados com produtos de sua escolha e compartilha suas experiências 	com a comunidade.
+ 	Posta stories em suas redes sociais, participa ativamente de fóruns, monta "boxes" personalizados com produtos de sua escolha e compartilha suas experiências com a comunidade.
 
  	O que ele PENSA e SENTE?
  	Deseja pertencer a um grupo autêntico, sente orgulho em apoiar marcas com propósito e tem receio de perder o lançamento de edições exclusivas de produtos.
 
  	DORES: Dificuldade em encontrar produtos sustentáveis, lentidão em aplicativos de compras e falhas em entregas.
 
- 	GANHOS: Experiência de compras rápidas, personalização de produtos, status social, recompensas por engajamento e o sentimento de pertencimento a uma 	comunidade.
+ 	GANHOS: Experiência de compras rápidas, personalização de produtos, status social, recompensas por engajamento e o sentimento de pertencimento a uma comunidade.
 
 2. Ana Ferreira (Persona Secundária)
  
@@ -122,27 +122,28 @@ Mapa de Empatia
 	GANHOS: Acesso a tutoriais, descontos, suporte rápido para tirar dúvidas e uma comunidade que a acolha.
 
 	Contexto de Uso O ambiente de uso do produto digital do Ecologic Smoke foi projetado para se adaptar ao estilo de vida dinâmico de suas personas.
-	Ambiente Físico: O usuário, como Lucas, utiliza o serviço principalmente em movimento, seja na rua, no transporte público, em eventos ou em bares, 	majoritariamente através de seu smartphone.
+	Ambiente Físico: O usuário, como Lucas, utiliza o serviço principalmente em movimento, seja na rua, no transporte público, em eventos ou em bares, majoritariamente através de seu smartphone.
 
 	Contexto Social, Econômico e Cultural: O usuário está inserido na cultura urbana, criativa e sustentável.
 
-	Informações a Serem Guardadas: Antes mesmo de o usuário iniciar a interação, o sistema deve ter acesso às suas preferências, histórico de compras, pontuação e 	perfil de consumo.
+	Informações a Serem Guardadas: Antes mesmo de o usuário iniciar a interação, o sistema deve ter acesso às suas preferências, histórico de compras, pontuação e perfil de consumo.
 
-	Situação do Ambiente: Geralmente, o usuário estará em movimento quando interagir com o serviço, o que exige uma interface rápida, intuitiva e visualmente 	atraente.
+	Situação do Ambiente: Geralmente, o usuário estará em movimento quando interagir com o serviço, o que exige uma interface rápida, intuitiva e visualmente atraente.
 
 # Jornada do Usuário:
 A seguir, a jornada de Lucas Andrade, desde o primeiro contato com a marca até se tornar um membro engajado da comunidade.
 
 	Etapa 1: Descoberta
-	Lucas está navegando no Instagram quando vê um anúncio de um "drop" exclusivo do Ecologic Smoke. Sua curiosidade é despertada, e ele clica no link onde informa 	sobre o Ecologic Smoke e que o leva a instalar o aplicativo.
+	Lucas está navegando no Instagram quando vê um anúncio de um "drop" exclusivo do Ecologic Smoke. Sua curiosidade é despertada, e ele clica no link onde informa sobre o Ecologic Smoke e que o leva a instalar o aplicativo.
 
 	Etapa 2: Exploração 
-	Ao abrir o app, Lucas navega por um catálogo de produtos personalizado de acordo com suas preferências. Sentindo entusiasmo, ele encontra diversos itens 	que se alinham com seu estilo.
+	Ao abrir o app, Lucas navega por um catálogo de produtos personalizado de acordo com suas preferências. Sentindo entusiasmo, ele encontra diversos itens que se alinham com seu estilo.
 
 	Etapa 3: Decisão Com satisfação
-	Lucas monta um "box" personalizado com os produtos que escolheu e aplica seus pontos de recompensa para obter um desconto. Ele 	finaliza a compra de forma 	rápida, utilizando o PIX.
+	Lucas monta um "box" personalizado com os produtos que escolheu e aplica seus pontos de recompensa para obter um desconto. Ele 	finaliza a compra de forma	rápida, utilizando o PIX.
 
 	Etapa 4: Participação
-	Após a compra, ele recebe um QR code para um evento exclusivo e é convidado a participar da comunidade online. Seu nível de engajamento aumenta, e ele 	ganha 	uma "badge" (distintivo) que o faz subir no ranking de usuários.
+	Após a compra, ele recebe um QR code para um evento exclusivo e é convidado a participar da comunidade online. Seu nível de engajamento aumenta, e ele ganha uma "badge" (distintivo) que o faz subir no ranking de usuários.
+	
 	Etapa 5: Retorno
-	Sentindo orgulho de sua experiência, Lucas compartilha seu feedback e fotos dos produtos nas redes sociais e na comunidade. Com isso, ele acumula mais 	pontos 	e recebe um convite VIP para um próximo evento, completando o ciclo de sua jornada.
+	Sentindo orgulho de sua experiência, Lucas compartilha seu feedback e fotos dos produtos nas redes sociais e na comunidade. Com isso, ele acumula mais pontos e recebe um convite VIP para um próximo evento, completando o ciclo de sua jornada.
