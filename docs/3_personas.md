@@ -49,7 +49,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
 
 # Personas Primárias
 
-1. Lucas Andrade – O Explorador Urbano
+1 Lucas Andrade – O Explorador Urbano
 
  	Idade: 24 anos
  	Gênero: Masculino
@@ -59,7 +59,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
 
  	Contexto Social, Econômico e Cultural: Lucas está imerso na cultura urbana, frequentando eventos independentes, feiras e exposições alternativas. Ele utiliza as redes sociais para expressar seu estilo pessoal e apoiar marcas que demonstram ter um propósito claro. A sustentabilidade e a exclusividade são valores importantes para ele. Seus principais objetivos são encontrar produtos que reflitam sua autenticidade e propósito, além de participar de uma comunidade que compartilhe de seus valores e ser recompensado por seu engajamento e compras.
 
-2. Marina Lopes – A Criadora Consciente
+2 Marina Lopes – A Criadora Consciente
 
  	Idade: 30 anos
  	Profissão: Produtora de eventos culturais
@@ -68,7 +68,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
   
  	Contexto Social, Econômico e Cultural: Marina é uma empreendedora criativa, engajada em coletivos artísticos e ambientais. Ela valoriza produtos sustentáveis e gosta de participar de experiências colaborativas. Seus objetivos incluem adquirir produtos exclusivos e de alta qualidade, criar conexões com a comunidade e gerenciar a compra de kits consignados através de um painel de parceiros.
 
-3. Ana Ferreira - Curiosa Iniciante
+3 Ana Ferreira - Curiosa Iniciante
 
  	Idade: 21 anos
  	Profissão: Estudante universitária
