@@ -63,20 +63,20 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
 2 Marina Lopes – A Criadora Consciente
 ![Marina](https://github.com/user-attachments/assets/cb937aac-3d01-476d-b1a5-ebe722d88149)
 
- 	Idade: 30 anos
- 	Profissão: Produtora de eventos culturais
- 	Localização: Belo Horizonte – MG
- 	Renda: Média-alta (R$ 6.000 – R$ 8.000/mês)
+ 	- Idade: 30 anos
+ 	- Profissão: Produtora de eventos culturais
+ 	- Localização: Belo Horizonte – MG
+ 	- Renda: Média-alta (R$ 6.000 – R$ 8.000/mês)
   
  	Contexto Social, Econômico e Cultural: Marina é uma empreendedora criativa, engajada em coletivos artísticos e ambientais. Ela valoriza produtos sustentáveis e gosta de participar de experiências colaborativas. Seus objetivos incluem adquirir produtos exclusivos e de alta qualidade, criar conexões com a comunidade e gerenciar a compra de kits consignados através de um painel de parceiros.
 
 3 Ana Ferreira - Curiosa Iniciante
 <img width="1024" height="1024" alt="Ana" src="https://github.com/user-attachments/assets/cad70838-e4b7-4b31-9102-d1446e2c0168" />
 
- 	Idade: 21 anos
- 	Profissão: Estudante universitária
- 	Localização: Porto Alegre – RS
- 	Renda: Baixa (R$ 1.500 – R$ 2.200/mês)
+ 	- Idade: 21 anos
+ 	- Profissão: Estudante universitária
+ 	- Localização: Porto Alegre – RS
+ 	- Renda: Baixa (R$ 1.500 – R$ 2.200/mês)
  	
  	Contexto social, econômico e cultural: recém introduzida à cultura headshop. Observa amigos e influenciadores e sente curiosidade em aprender mais. Busca segurança e clareza antes de comprar.
 
@@ -90,16 +90,16 @@ Mapa de Empatia
 
 1. Lucas Andrade (Persona Primária)
 
- 	O que ele VÊ?
+ 	- O que ele VÊ?
  	Ambientes urbanos repletos de grafites, headshops, vitrines com apelo eco-friendly e anúncios de lançamentos de produtos limitados nas redes sociais.
 
- 	O que ele OUVE?
+ 	- O que ele OUVE?
  	Recomendações de amigos e influenciadores digitais, as músicas e os sons de eventos que frequenta e anúncios de novos produtos.
 
- 	O que ele FALA e FAZ?
+ 	- O que ele FALA e FAZ?
  	Posta stories em suas redes sociais, participa ativamente de fóruns, monta "boxes" personalizados com produtos de sua escolha e compartilha suas experiências com a comunidade.
 
- 	O que ele PENSA e SENTE?
+ 	- O que ele PENSA e SENTE?
  	Deseja pertencer a um grupo autêntico, sente orgulho em apoiar marcas com propósito e tem receio de perder o lançamento de edições exclusivas de produtos.
 
  	DORES: Dificuldade em encontrar produtos sustentáveis, lentidão em aplicativos de compras e falhas em entregas.
@@ -114,10 +114,10 @@ Mapa de Empatia
 	- O que ela OUVE?
 	Amigos recomendando marcas seguras, influenciadores explicando como usar os produtos e podcasts sobre bem-estar alternativo.
 
-	O que ela FALA e FAZ?
+	- O que ela FALA e FAZ?
 	Faz perguntas em fóruns para tirar dúvidas, lê avaliações de outros usuários, segue tutoriais, e busca por kits para iniciantes que tenham desconto.
 
-	O que ela PENSA e SENTE?
+	- O que ela PENSA e SENTE?
 	Sente vontade de experimentar os produtos, mas tem receio de errar; por isso, precisa sentir confiança e acolhimento. Ela busca segurança e praticidade em sua 	experiência.
 
 	DORES: A linguagem técnica utilizada no meio, o receio de usar os produtos de forma incorreta e a falta de orientação para iniciantes.
