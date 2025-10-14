@@ -108,10 +108,10 @@ Mapa de Empatia
 
 2. Ana Ferreira (Persona Secundária)
  
-	O que ela VÊ?
+	- O que ela VÊ?
 	Amigos utilizando produtos de headshops, posts explicativos em redes sociais, vídeos tutoriais e a interface amigável do aplicativo.
 
-	O que ela OUVE?
+	- O que ela OUVE?
 	Amigos recomendando marcas seguras, influenciadores explicando como usar os produtos e podcasts sobre bem-estar alternativo.
 
 	O que ela FALA e FAZ?
