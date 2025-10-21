@@ -13,8 +13,6 @@
 - 
 ## 1. Que dados coletar
 
-Conforme o roteiro da aula, serão coletados dados que auxiliem a compreender o contexto de uso do sistema e as necessidades dos usuários:
-
 - **Dados do usuário:** idade, gênero, cidade, ocupação e hábitos de consumo.  
 - **Dados sobre tecnologia:** dispositivos utilizados (mobile/desktop), frequência de uso e confiança em aplicativos.  
 - **Dados do domínio:** familiaridade com produtos de headshop e participação em eventos culturais.  
@@ -33,8 +31,6 @@ Conforme o roteiro da aula, serão coletados dados que auxiliem a compreender o 
 
 ## 3. Aspectos Éticos
 
-O projeto **deve considerar aspectos éticos**, conforme os princípios estudados na disciplina:
-
 - **Consentimento livre e esclarecido** antes da participação.  
 - **Anonimização das respostas** e sigilo dos dados coletados.  
 - **Participação voluntária** e direito de desistência a qualquer momento.  
@@ -46,7 +42,7 @@ Um **Termo de Consentimento** será aplicado antes das entrevistas, grupos focai
 
 ## 4. Ferramentas de Coleta de Dados
 
-Serão utilizadas **três técnicas complementares**, conforme orientação do roteiro da aula.
+Serão utilizadas **três técnicas complementares**.
 
 ---
 
