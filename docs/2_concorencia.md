@@ -82,7 +82,3 @@ Essa estratégia diferencia a marca, criando uma experiência de usuário comple
 
 ---
 
-📸 *Os prints das telas dos concorrentes devem ser inseridos na pasta:*  
-`/docs/analise_concorrencia/`  
-*(seguindo o roteiro da disciplina CC8122 — Análise de Concorrência).*
-
