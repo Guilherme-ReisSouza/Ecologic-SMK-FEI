@@ -6,28 +6,68 @@
 2. Questões de Refinamento
 3. Refinamento do Cenário Análise/Problema
 
-# Cenário de Análise/Problema
-Lucas, um jovem de 24 anos conectado à cultura urbana, é um grande admirador da Ecologic Smoke. Ele segue a marca nas redes sociais e se identifica com o lifestyle que ela promove. Certo dia, ele vê um anúncio no Instagram sobre um "drop" exclusivo de produtos e um evento que acontecerá no fim de semana. A empolgação é imediata, mas logo se transforma em uma jornada frustrante.
+---
 
-Para comprar o produto de edição limitada, ele precisa sair do Instagram e ir para um marketplace genérico, como o Mercado Livre ou a Shopee. A experiência de compra é impessoal, lenta e não reflete a identidade visual da marca que tanto o atraiu. Enquanto isso, para garantir seu ingresso no evento, ele é redirecionado para outra plataforma, como a Sympla.
+# 🧩 Cenário de Análise / Problema — Ecologic Smoke  
+### Fragmentação da Experiência Digital e Falta de Integração entre Canais
 
-Agora, Lucas precisa gerenciar duas compras separadas em duas interfaces diferentes. Ele percebe que não há integração entre a compra do produto e o ingresso; sua lealdade como cliente que consome os produtos não gera nenhum benefício ou desconto para participar do evento. Nos comentários do post, ele vê outras pessoas com as mesmas dúvidas e dificuldades, mas a conversa se perde e não há um local para centralizar a comunidade e fortalecer o senso de pertencimento.  Ele se sente apenas mais um consumidor, e não parte do movimento.
+---
 
-# Questões de Refinamento
-Como os usuários descobrem e adquirem produtos e ingressos para eventos da marca atualmente?
+## 1️⃣ Cenário de Análise / Problema  
 
-Quais são os principais obstáculos que os usuários enfrentam ao interagir com a marca em múltiplos canais (redes sociais, marketplaces, plataformas de eventos)?
+Na cidade de **São Paulo**, a marca **Ecologic Smoke** vem ganhando destaque entre jovens que se identificam com a cultura urbana, o estilo alternativo e a proposta sustentável da empresa.  
+Entre esses jovens está **Lucas Ferreira**, de 24 anos, estudante de Design e morador da Zona Oeste. Ele é um cliente fiel da marca e acompanha com frequência as redes sociais da Ecologic Smoke, principalmente o Instagram, onde descobre novos produtos e eventos.
 
-De que forma a falta de um espaço unificado afeta o sentimento de comunidade e pertencimento que a marca deseja promover? 
+Em uma sexta-feira, Lucas vê um anúncio sobre um *drop* de produtos exclusivos e um evento temático da marca no centro da cidade. Animado, ele tenta adquirir os produtos e garantir seu ingresso.  
+Ao clicar no link da bio, é redirecionado para um **marketplace genérico** (Shopee ou Mercado Livre), onde precisa criar uma nova conta, inserir dados pessoais e realizar o pagamento em uma plataforma sem a identidade visual da marca. A navegação é confusa, e ele não encontra informações sobre a quantidade disponível ou sobre o brinde promocional anunciado.  
 
-Como a experiência de compra atual, fragmentada e impessoal, impacta a percepção do usuário sobre os valores de exclusividade e identidade cultural da Ecologic Smoke? 
+Após concluir a compra, ele retorna ao Instagram e tenta adquirir o ingresso do evento, mas é direcionado para outro site, como **Sympla** ou **Shotgun**. Lá, precisa preencher novamente todas as informações pessoais, repetir o pagamento e não recebe qualquer integração entre a compra do produto e o ingresso.  
 
-Os parceiros comerciais, como bares e tabacarias, enfrentam quais dificuldades para gerenciar estoques consignados e fazer pedidos em atacado sem uma plataforma centralizada? 
+Nos comentários das publicações, Lucas percebe que outros clientes enfrentam a mesma dificuldade. As dúvidas se acumulam sem resposta, e a conversa com a marca se perde entre *stories* e postagens. Ele sente que, apesar de a Ecologic Smoke se apresentar como uma comunidade, **não há um espaço unificado** onde os consumidores possam interagir, trocar experiências e acompanhar suas compras ou pontos de fidelidade.  
 
-# Refinamento do Cenário Análise/Problema
+Enquanto isso, **os parceiros comerciais** — tabacarias e bares que revendem produtos da marca em São Paulo — precisam registrar pedidos via mensagens e planilhas manuais, sem controle automatizado de consignados ou relatórios.  
+Essa falta de centralização causa **erros, atrasos e inconsistências** nas entregas e compromete a imagem da marca junto aos revendedores.  
 
-Lucas, um jovem imerso na cultura urbana e consumidor de produtos headshop , sente uma forte conexão com a Ecologic Smoke, que ele vê como um movimento cultural.  No entanto, sua experiência como cliente é marcada pela frustração. Ao ver no Instagram o anúncio de um produto exclusivo e de um evento da marca, sua empolgação inicial rapidamente se dissipa.
+No final, Lucas sente que a jornada com a Ecologic Smoke é **fragmentada, impessoal e trabalhosa**.  
+A marca promete uma comunidade, mas entrega uma experiência desconectada e burocrática, que o faz se sentir apenas mais um número no sistema.
 
-A jornada de compra o leva para um marketplace genérico , onde a interface não tem a identidade visual da Ecologic Smoke, fazendo com que ele se sinta desconectado da experiência e da "tribo" que a marca propõe. A compra do ingresso para o evento o força a migrar para uma terceira plataforma, sem qualquer integração ou reconhecimento de que ele é o mesmo cliente que acabou de adquirir um produto. 
+---
 
-Ele já comprou diversos itens da marca, mas sua lealdade não é recompensada.  Não há um sistema de pontos, nenhum acesso antecipado a lançamentos e nenhum benefício por ser um cliente fiel. A interação com outros entusiastas da marca se limita a comentários dispersos nas redes sociais, sem um espaço onde a comunidade possa de fato se conectar e se fortalecer. Essa experiência fragmentada e impessoal o faz sentir que, apesar do discurso de comunidade e pertencimento, na prática, ele é tratado apenas como mais um número em uma transação comercial isolada.
+## 2️⃣ Questões de Refinamento  
+
+1. Como os usuários descobrem, compram e participam de eventos da marca atualmente?  
+2. Quais dificuldades enfrentam ao alternar entre diferentes plataformas (Instagram, marketplaces, Sympla)?  
+3. A ausência de identidade visual unificada afeta a confiança e a percepção de marca?  
+4. Como a falta de integração impacta o engajamento e a fidelização do cliente?  
+5. Que tipo de feedback ou suporte o usuário recebe durante sua jornada de compra?  
+6. De que maneira a ausência de um espaço comunitário prejudica a comunicação entre usuários e marca?  
+7. Quais são as principais limitações enfrentadas pelos parceiros comerciais no processo de consignado e controle de estoque?  
+8. Como essa fragmentação compromete a eficiência operacional e a experiência geral do usuário?  
+
+---
+
+## 3️⃣ Refinamento do Cenário de Análise / Problema  
+
+**Atores:**  
+Lucas Ferreira (usuário final), equipe de marketing da Ecologic Smoke e parceiros comerciais (bares e tabacarias de São Paulo).
+
+---
+
+Na cidade de **São Paulo**, Lucas Ferreira, 24 anos, estudante de Design, é consumidor recorrente da **Ecologic Smoke**, marca com a qual se identifica por causa de seu posicionamento cultural e sustentável [1].  
+Ele descobre um *drop* exclusivo de produtos e um evento temático da marca por meio do **Instagram**, principal canal de divulgação [2].  
+
+Ao clicar no link de compra, é redirecionado para o **marketplace Mercado Livre**, onde realiza o cadastro e tenta adquirir o produto [3].  
+A experiência é **impessoal e genérica**, sem elementos visuais que representem a identidade da Ecologic Smoke [4].  
+Após o pagamento, ele retorna à rede social para comprar o ingresso do evento, mas é direcionado a uma segunda plataforma, como **Sympla**, precisando repetir o cadastro e o pagamento [5].  
+Não há integração entre as plataformas, o que impede o reconhecimento de Lucas como cliente já ativo da marca [6].  
+
+Durante a jornada, o usuário não recebe **feedback consolidado** sobre o status das compras e ingressos. Cada sistema envia notificações separadas, gerando confusão e falta de controle [7].  
+Nos comentários das redes sociais, ele observa que outros usuários enfrentam os mesmos problemas, mas as dúvidas permanecem sem resposta [8].  
+Não existe um **ambiente digital unificado** para comunicação e interação entre a marca e sua comunidade [9].  
+
+Paralelamente, os **parceiros comerciais** relatam falhas na reposição de produtos consignados. Como não há um painel centralizado, as solicitações são feitas por mensagens e planilhas, dificultando o controle de estoque e a previsão de demanda [10].  
+
+O cenário demonstra uma **fragmentação das experiências digitais e operacionais**.  
+Lucas e os parceiros vivem realidades desconectadas, sem integração entre canais de venda, eventos e relacionamento.  
+Essa falta de coerência digital e visual **enfraquece o engajamento, a eficiência e o sentimento de pertencimento**, tornando a jornada com a marca menos satisfatória e menos significativa [11].
+
