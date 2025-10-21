@@ -9,93 +9,160 @@
 ---
 
 # ⚙️ Análise de Tarefas — Ecologic Smoke  
-*(Conforme Barbosa & Silva 2010 / Disciplina CC8122 – FEI)*
+*(Baseado em Barbosa & Silva, 2010 – Disciplina CC8122 / FEI)*
 
-A análise de tarefas permite compreender **como os usuários realizam o trabalho** dentro da interface proposta e **por que** o fazem dessa forma.  
-O objetivo é mapear **tarefas, sub-tarefas e ações** para melhorar a eficiência, reduzir erros e garantir que a interface responda adequadamente às necessidades do usuário final e dos parceiros comerciais.
+---
+
+## 🧭 Introdução
+
+A **Análise de Tarefas** tem como objetivo compreender **como os usuários executam suas atividades dentro da interface** e **por que as realizam dessa maneira**, identificando possíveis falhas de usabilidade e oportunidades de melhoria.
+
+Os modelos utilizados — **HTA (Hierarchical Task Analysis)**, **GOMS** e **CTT (ConcurTaskTrees)** — foram aplicados para mapear as principais funcionalidades da plataforma **Ecologic Smoke**, um ecossistema digital que une **marketplace, comunidade e sistema de recompensas**.
 
 ---
 
 ## 🔹 HTA — Hierarchical Task Analysis  
-### **Funcionalidade: Realizar Compra de Produto com Sistema de Pontos**
+### Funcionalidade: Efetuar Compra com Sistema de Pontos
 
-| Nível | Objetivos / Operações | Problemas Identificados | Recomendações IHC |
-|-------|-----------------------|-------------------------|-------------------|
-| **0** | **Efetuar compra com resgate de pontos**  <br> *Input:* usuário logado e produto selecionado    *Feedback:* confirmação de pedido e saldo atualizado    *Plano:* 1 > 2 > 3 | Processo de checkout fragmentado entre páginas | Unificar em uma única página de pagamento |
-| **1** | Selecionar produto e adicionar ao carrinho | Filtros pouco visíveis e demora na resposta | Implementar filtros dinâmicos e feedback visual |
-| **2** | Escolher forma de pagamento (PIX, cartão ou pontos) | Dúvida sobre saldo de pontos | Mostrar saldo em tempo real |
-| **3** | Confirmar dados e finalizar compra | Falta de mensagem de confirmação | Inserir mensagem de feedback positivo |
-
-**Plano HTA:** Para finalizar a compra (0), o usuário deve selecionar o produto (1), escolher a forma de pagamento (2) e confirmar a transação (3).  
-
-**Interpretação:** A HTA mostra que o processo de compra precisa de maior integração e feedback imediato.  
-**Recomendação:** Simplificar a sequência de ações com feedback em cada etapa e design consistente com a identidade visual da marca.
+A Análise Hierárquica de Tarefas (HTA) descreve as etapas necessárias para o usuário realizar uma compra de produto utilizando pontos de fidelidade.  
+O objetivo é identificar gargalos de interação e oportunidades de otimização da experiência de compra.
 
 ---
 
-## 🔹 GOMS — Goals, Operators, Methods and Selection Rules  
-### **Funcionalidade: Montar Box Personalizado**
+### 🧩 Diagrama HTA
 
-**GOAL 0:** Criar um box mensal personalizado de produtos.  
+```mermaid
+graph TD
+    A0["0. Efetuar compra com pontos (1>2>3)"]
+    A1["1. Selecionar produto e adicionar ao carrinho (1+2)"]
+    A2["2. Escolher forma de pagamento"]
+    A3["3. Confirmar e finalizar a compra"]
 
-- **GOAL 1:** Selecionar categoria de produtos  
-  - **METHOD 1A:** Escolher a partir de categorias fixas (papel, ervas, acessórios)  
-     *(SEL. RULE:* usuário já sabe o tipo de produto desejado )*  
-  - **METHOD 1B:** Usar sugestões automáticas do sistema  
-     *(SEL. RULE:* usuário não tem preferência definida )*  
+    A1 --> A1_1["1.1. Explorar catálogo e aplicar filtros"]
+    A1 --> A1_2["1.2. Visualizar detalhes e clicar em 'Adicionar ao carrinho'"]
 
-- **GOAL 2:** Personalizar quantidade e tipo de itens  
-    **OP. 2.1:** Ajustar quantidade via controle (“+ / –”)  
-    **OP. 2.2:** Visualizar valor e pontos em tempo real  
+    A2 --> A2_1["2.1. Selecionar PIX / Cartão / Pontos"]
+    A2 --> A2_2["2.2. Confirmar uso de pontos de fidelidade"]
 
-- **GOAL 3:** Confirmar e salvar box  
-    **OP. 3.1:** Clicar em “Salvar Box”  
-    **OP. 3.2:** Receber feedback visual de confirmação  
-
-**Selection Rule:** Se o usuário não souber o que incluir, o sistema sugere kits pré-montados; caso contrário, segue para customização manual.  
-
-**Interpretação:** O modelo GOMS identifica a carga cognitiva na criação do box e permite reduzi-la com sugestões contextuais e automação parcial.  
+    A3 --> A3_1["3.1. Revisar resumo da compra"]
+    A3 --> A3_2["3.2. Confirmar pagamento"]
+    A3 --> A3_3["3.3. Receber feedback de confirmação e saldo atualizado"]
+````
 
 ---
 
-## 🔹 CTT — Concur Task Trees  
-### **Funcionalidades: (A) Compra de Produto   (B) Participar de Evento   (C) Interagir na Comunidade   (D) Gerenciar Pedidos Parceiro**
+### 📋 Tabela Explicativa
 
-**Legenda de relações:**  
-- T1 >> T2 → T2 só inicia após T1 concluir.  
-- T1 [ ] >> T2 → T1 passa informação a T2.  
-- T1 ||| T2 → tarefas concorrentes.  
-- T1 [> T2 → T1 é interrompida por T2.  
+| Nível   | Objetivo / Operação         | Problemas Identificados           | Recomendações IHC                           |
+| ------- | --------------------------- | --------------------------------- | ------------------------------------------- |
+| **0**   | Efetuar compra com pontos   | Processo dividido em várias telas | Unificar checkout em uma única página       |
+| **1**   | Selecionar produto          | Filtros lentos e confusos         | Implementar filtros dinâmicos e responsivos |
+| **1.1** | Explorar catálogo           | Carregamento lento de imagens     | Otimizar cache e imagens                    |
+| **2**   | Escolher forma de pagamento | Dúvida sobre saldo de pontos      | Exibir saldo de pontos durante o checkout   |
+| **3**   | Finalizar compra            | Falta de mensagem de confirmação  | Incluir feedback visual e sonoro            |
 
----
+**Plano:**
+Para concluir a tarefa principal **(0)**, o usuário deve seguir a sequência:
+1️⃣ Selecionar produto (**1**) → 2️⃣ Escolher forma de pagamento (**2**) → 3️⃣ Confirmar e finalizar a compra (**3**).
 
-### 🧭 Diagrama Textual CTT — Fluxo Principal
-
-**T0 — Interagir com a Plataforma Ecologic Smoke**  
-- T1: Explorar catálogo de produtos  
-- T2: Comprar produto [ ] >> T3: Gerar pontos de fidelidade  
-- T4: Participar de eventos || | | T5: Interagir na comunidade  
-- T6: Parceiro gerenciar estoque consignado >> T7: Emitir relatório de vendas  
-
-**Relações:**  
-- T1 [ ] >> T2 (passa dados do produto para compra).  
-- T2 [ ] >> T3 (gera pontos automáticos).  
-- T4 ||| T5 (tarefas concorrentes de engajamento).  
-- T6 >> T7 (sequência de gestão operacional).  
+**Input:** Usuário autenticado e produto disponível no catálogo.
+**Feedback:** Mensagem de sucesso e saldo de pontos atualizado.
 
 ---
 
-**Interpretação:** O modelo CTT demonstra como as tarefas principais (usuário final e parceiro) acontecem de forma concorrente, mas com dependências claras de informação.  
-Ele evidencia a necessidade de um **núcleo de dados integrado** que permita transitar de compra para evento e para a comunidade sem perder contexto.
+### 💬 Interpretação
+
+A HTA mostra que o processo atual exige múltiplas interações e telas separadas.
+A recomendação é consolidar o fluxo de pagamento em **uma única tela**, com **feedback imediato** a cada ação, reduzindo o esforço cognitivo do usuário.
 
 ---
 
-## 🧩 Síntese Geral
+## 🔹 GOMS — Goals, Operators, Methods and Selection Rules
 
-| Modelo | Foco | Insight Principal | Recomendações de IHC |
-|---------|------|------------------|-----------------------|
-| **HTA** | Estrutura sequencial da compra | Processo de checkout precisa de feedback contínuo e menos telas | Unificar pagamento e confirmação em um único fluxo |
-| **GOMS** | Interação cognitiva na montagem do box | Reduzir decisões repetitivas e fornecer sugestões contextuais | Oferecer kits pré-montados e autocompletar preferências |
-| **CTT** | Concorrência entre tarefas do usuário e do sistema | Integrar compra, evento e comunidade no mesmo ecossistema | Implementar núcleo central de dados e identidade única do usuário |
+### Funcionalidade: Montar Box Personalizado
+
+O modelo GOMS identifica **os objetivos, operadores, métodos e regras de seleção** necessários para que o usuário crie um box mensal de produtos personalizados.
+Este processo reflete a funcionalidade de personalização e fidelização do sistema Ecologic Smoke.
+
+---
+
+### 🧠 Estrutura GOMS
+
+**GOAL 0:** Criar um box mensal personalizado.
+
+* **GOAL 1:** Selecionar categorias de produtos
+
+  * **METHOD 1.A:** Escolher categorias fixas (papel, ervas, acessórios)
+    *(SEL. RULE: o usuário já sabe o tipo de produto que deseja)*
+  * **METHOD 1.B:** Utilizar sugestões automáticas do sistema
+    *(SEL. RULE: o usuário não possui preferências definidas)*
+
+* **GOAL 2:** Personalizar quantidade e tipo de itens
+
+  * **OP. 2.1:** Ajustar quantidade via controle “+ / –”
+  * **OP. 2.2:** Visualizar valor total e pontos em tempo real
+
+* **GOAL 3:** Confirmar e salvar box
+
+  * **OP. 3.1:** Clicar em “Salvar Box”
+  * **OP. 3.2:** Receber feedback visual de confirmação
+
+---
+
+### 💡 Interpretação
+
+O modelo GOMS evidencia que o processo de montagem do box exige **decisões repetitivas e cognitivamente custosas**.
+A solução proposta é implementar **sugestões automáticas de produtos** com base em compras anteriores e **feedbacks em tempo real**, otimizando o tempo e reduzindo a carga mental do usuário.
+
+---
+
+## 🔹 CTT — Concur Task Trees
+
+### Funcionalidades:
+
+(A) Compra de Produto
+(B) Participar de Evento
+(C) Interagir na Comunidade
+(D) Gerenciar Pedidos de Parceiros
+
+O modelo **CTT** descreve as tarefas concorrentes e dependentes que ocorrem simultaneamente entre o usuário, o sistema e os parceiros comerciais.
+
+---
+
+### 🌐 Diagrama Textual CTT
+
+**Relações de Tarefas:**
+
+* T1 >> T2 → T2 inicia após T1 terminar.
+* T1 [ ] >> T2 → T1 passa informações a T2.
+* T1 ||| T2 → tarefas podem ocorrer em paralelo.
+* T1 |> T2 → T1 pode ser pausada por T2.
+
+---
+
+```mermaid
+graph TD
+    T0["T0 — Interagir com o Ecossistema Ecologic Smoke"]
+
+    T1["T1 — Explorar catálogo de produtos"]
+    T2["T2 — Realizar compra [ ] >>"]
+    T3["T3 — Gerar pontos de fidelidade"]
+    T4["T4 — Participar de eventos"]
+    T5["T5 — Interagir na comunidade"]
+    T6["T6 — Parceiro gerenciar estoque consignado"]
+    T7["T7 — Emitir relatório de vendas"]
+
+    T0 --> T1
+    T1 --> T2
+    T2 --> T3
+    T0 --> T4
+    T0 --> T5
+    T6 --> T7
+
+    T4 -. concorrente .-> T5
+```
+
+
+
 
 
