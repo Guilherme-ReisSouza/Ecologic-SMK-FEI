@@ -10,7 +10,7 @@
 - Explicar como aplicar (serve para normalizar o processo de aplicação quando pessoas distintas aplicam o instrumento)
 - Instrumento (por exemplo, link do questionário no Google Forms, roteiro de entrevista, roteiro do Grupo Focal, etc)
 
-- 
+
 ## 1. Que dados coletar
 
 - **Dados do usuário:** idade, gênero, cidade, ocupação e hábitos de consumo.  
