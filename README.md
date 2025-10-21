@@ -2,11 +2,9 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](http://lattes.cnpq.br/6747210702910392) e Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Título do TCC** sob orientação do Professor **Nome do Orientador** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia em um modelo validado de um mvc de mercado, tendo como objetivo analizar e comparar a eficiencia da experiencia de usuario com o modelo antigo e o catalago interativo e desenvolvido pelo aluno:
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Gulherme Reis Queiroz de Souza
 
 ## Conhecendo o problema
 
