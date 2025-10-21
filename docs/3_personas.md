@@ -42,7 +42,7 @@
 [1] Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
 # Personas
-As personas que interagem com a aplicação são representações dos usuários ideais do Ecologic Smoke, um movimento cultural e headshop que busca unir experiências físicas e digitais.
+As personas que interagem com a aplicação são representações dos usuários ideais do Ecologic Smoke e foram previamente testadas e validadas na fase de mvp.
 
 # Público-Alvo
 O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localizado em regiões urbanas e centros culturais. Este grupo possui um estilo de vida alternativo, sustentável e está altamente conectado ao ambiente digital, especialmente através de dispositivos móveis e redes sociais. As principais motivações que os levam a se interessar pelo Ecologic Smoke são o desejo de pertencimento, a busca por autenticidade e exclusividade, e a valorização de experiências únicas.
@@ -52,7 +52,7 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
 1 Lucas Andrade – O Explorador Urbano
 <img width="1024" height="1024" alt="Lucas" src="https://github.com/user-attachments/assets/8cea94af-853d-40bc-8c6d-f14897e98461" />
 
- 	Idade: 24 anos
+ 	Idade: 27 anos
  	Gênero: Masculino
  	Profissão: Freelancer de design gráfico e tatuador iniciante
  	Localização: São Paulo - SP
@@ -63,19 +63,19 @@ O produto destina-se a um público jovem, com idade entre 18 e 38 anos, localiza
 2 Marina Lopes – A Criadora Consciente
 ![Marina](https://github.com/user-attachments/assets/cb937aac-3d01-476d-b1a5-ebe722d88149)
 
- 	- Idade: 30 anos
+ 	- Idade: 22 anos
  	- Profissão: Produtora de eventos culturais
- 	- Localização: Belo Horizonte – MG
- 	- Renda: Média-alta (R$ 6.000 – R$ 8.000/mês)
+ 	- Localização: Santo André – SP
+ 	- Renda: Média-alta (R$ 2.000 – R$ 3.500/mês)
   
  	Contexto Social, Econômico e Cultural: Marina é uma empreendedora criativa, engajada em coletivos artísticos e ambientais. Ela valoriza produtos sustentáveis e gosta de participar de experiências colaborativas. Seus objetivos incluem adquirir produtos exclusivos e de alta qualidade, criar conexões com a comunidade e gerenciar a compra de kits consignados através de um painel de parceiros.
 
 3 Ana Ferreira - Curiosa Iniciante
 <img width="1024" height="1024" alt="Ana" src="https://github.com/user-attachments/assets/cad70838-e4b7-4b31-9102-d1446e2c0168" />
 
- 	- Idade: 21 anos
+ 	- Idade: 20 anos
  	- Profissão: Estudante universitária
- 	- Localização: Porto Alegre – RS
+ 	- Localização: São Bernardo do Campo - SP
  	- Renda: Baixa (R$ 1.500 – R$ 2.200/mês)
  	
  	Contexto social, econômico e cultural: recém introduzida à cultura headshop. Observa amigos e influenciadores e sente curiosidade em aprender mais. Busca segurança e clareza antes de comprar.
