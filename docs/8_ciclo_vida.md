@@ -13,7 +13,8 @@
 - Integração Multicanal: Conexão com APIs de pagamento, marketplaces (iFood, Shopee, Mercado Livre) e plataformas de comunicação (WhatsApp API, Discord).
 - Gamificação: Sistema de pontuação e recompensas para aumentar engajamento e retenção.
 - Gerenciamento de Comunidade: Fórum e feed de interação social integrado.
-- Acessibilidade: Implementação de boas práticas de design universal (contraste, navegação por teclado e texto alternativo). |
+- Acessibilidade: Implementação de boas práticas de design universal (contraste, navegação por teclado e texto alternativo).
+-  |
 | LISTA DE Restrições da Plataforma (com explicação) | - Dependência de Conectividade: A maioria das funções requer acesso à internet.
 - Limitações de Hardware Móvel: Desempenho pode ser afetado em dispositivos com baixa capacidade de processamento.
 - Manutenção Contínua de APIs: As integrações com serviços externos requerem atualização constante para evitar falhas.
