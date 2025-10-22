@@ -35,9 +35,9 @@
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de aprendizado | 20% |  |
-| Eficiência na execução de tarefas | 25% |  |
-| Satisfação do usuário | 25% |  |
-| Memorabilidade | 15% |  |
-| Prevenção e recuperação de erros | 15% |  |
-| **Total** | **100%** |  |
+| Facilidade de aprendizado | 20% | Promover curva de aprendizado rápida para novos usuários |
+| Eficiência na execução de tarefas | 25% | Garantir fluidez nas ações mais frequentes, como compras e postagens. |
+| Satisfação do usuário | 25% | Manter o engajamento e fidelização da comunidade.  |
+| Memorabilidade | 15% | Permitir reuso simples mesmo após longos intervalos. |
+| Prevenção e recuperação de erros | 15% | Evitar frustrações e promover confiança no uso. |
+| **Total** | **100%** | Distribuição balanceada segundo as diretrizes da Engenharia de Usabilidade de Mayhew. |
