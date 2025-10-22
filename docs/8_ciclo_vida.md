@@ -35,9 +35,9 @@
     
 | Metas | Porcentagem | Justificativa |
 | ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
+| Facilidade de aprendizado | 20% |  |
+| Eficiência na execução de tarefas | 25% |  |
+| Satisfação do usuário | 25% |  |
+| Memorabilidade | 15% |  |
+| Prevenção e recuperação de erros | 15% |  |
 | **Total** | **100%** |  |
