@@ -7,7 +7,7 @@
 
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software |  |
+| Descrição do Software | O sistema Ecologic Smoke é uma plataforma digital híbrida (Web + Mobile) desenvolvida para integrar loja virtual, comunidade e gamificação em um ecossistema unificado. O software é baseado em arquitetura moderna React.js / Next.js no front-end, Node.js + Express no back-end e banco de dados MongoDB ou Firebase. A aplicação mobile é desenvolvida em React Native, garantindo integração fluida entre os ambientes. |
 | Descrição do Hardware |  |
 | LISTA DE Capacidades da Plataforma (com explicação) |  |
 | LISTA DE Restrições da Plataforma (com explicação) |  |
