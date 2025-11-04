@@ -17,6 +17,9 @@ A análise de concorrência teve como objetivo compreender o cenário atual de p
 
 ---
 
+<img width="1584" height="396" alt="banner concorrentes" src="https://github.com/user-attachments/assets/f492c281-cc41-4400-bc10-4423f3f6f091" />
+
+
 ### 🛍️ Concorrentes Identificados
 
 | Concorrente | Descrição | Link |
