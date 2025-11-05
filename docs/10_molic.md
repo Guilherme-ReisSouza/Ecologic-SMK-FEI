@@ -13,13 +13,14 @@ flowchart TD
     U1([U: Abre o aplicativo da Ecologic Smoke]) --> D1([D: Exibe tela de login])
     D1 --> U2([U: Insere usuário e senha])
     U2 --> D2([D: Valida credenciais])
-    D2 -->|Credenciais válidas| D3([D: Exibe mensagem de boas-vindas "Bem-vindo à Selva, Coala! 🐨🔥"])
-    D2 -->|Erro| D4([D: Exibe mensagem de erro e opção "Esqueceu a senha?"])
+    D2 -->|Credenciais válidas| D3([D: Exibe mensagem de boas-vindas 'Bem-vindo à Selva, Coala! 🐨🔥'])
+    D2 -->|Erro| D4([D: Exibe mensagem de erro e opção 'Esqueceu a senha?'])
     D3 --> U3([U: Acessa o painel principal])
     D4 --> U4([U: Tenta novamente ou redefine senha])
     U3 --> D5([D: Mostra recomendações personalizadas com base no perfil])
     D5 --> END([Fim do fluxo ✅])
 ```
+
 
 Descrição resumida:
 Usuário realiza o login no app da Ecologic Smoke. O sistema valida suas credenciais e fornece um acesso imersivo à “Selva”, com mensagens personalizadas e CTA para o painel principal.
